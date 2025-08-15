@@ -7,6 +7,10 @@
     Symbol
     BigInt
     
+    const score = 100
 
+ //Non primitive (Reference)
+    Array
+    Objects
+    Functions
 
- //Non primitive 
