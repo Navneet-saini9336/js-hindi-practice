@@ -1,46 +1,62 @@
- // //primitive  = 7
-    //String
-    //Number
-    //Boolean
-    //null
-    //undefined
-    //Symbol
-    //BigInt
-    //
-    //const score = 100
-//
-    //const scoreValue =100.3
-//
-    //const isLoggedIn =false
-    //const outsideTemp =null
-    //let userEmail
-//
-    //const id = Symbol('123')
-    //const anotherId = Symbol('123')
-//
-    //console.log(id === anotherId);
-//
-    //const bigNumber = 34343444344
+// Primitive types (7)
+// String
+// Number
+// Boolean
+// null
+// undefined
+// Symbol
+// BigInt
 
- //Non primitive (Reference)
-    //Array 
-    //Objects
-    //Functions
+const score = 100;
+const scoreValue = 100.3;
 
-   const heros =[" shaktiman" , "naagraj" , "doga"]
-   let myObj= {
-     name : "hitesh",
-     age : 22, 
- 
-   }
+const isLoggedIn = false;
+const outsideTemp = null;
+let userEmail;
 
-  function myFunction() {
+const id = Symbol('123');
+const anotherId = Symbol('123');
+
+console.log(id === anotherId); // false
+
+const bigNumber = 34343444344n; // BigInt
+
+// Non-primitive (Reference)
+// Array
+// Object
+// Function
+
+const heros = ["shaktiman", "naagraj", "doga"];
+
+let myObj = {
+  name: "hitesh",
+  age: 22
+};
+
+function myFunction() {
   return "Hello";
 }
 
 console.log(typeof myFunction); // "function"
 
-
-// stack (primitive) , heap(Non-primitive)
+// Stack (Primitive) , Heap (Non-primitive)
 
 let myYoutubename = "hiteshchaudhary.com";
+
+let anothername = myYoutubename;
+anothername = "chaiaurcode";
+
+console.log(myYoutubename); // hiteshchaudhary.com
+console.log(anothername);   // chaiaurcode
+
+let user_1 = {
+  email: "user@google.com",
+  upi: "user@ybl"
+};
+
+let user_2 = user_1;
+
+user_2.email = "hitesh@google.com";
+
+console.log(user_1.email); // hitesh@google.com
+console.log(user_2.email); // hitesh@google.com
