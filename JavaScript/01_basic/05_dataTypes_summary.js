@@ -31,7 +31,7 @@
    let myObj= {
      name : "hitesh",
      age : 22, 
-
+ 
    }
 
   function myFunction() {
@@ -39,3 +39,8 @@
 }
 
 console.log(typeof myFunction); // "function"
+
+
+// stack (primitive) , heap(Non-primitive)
+
+let myYoutubename = "hiteshchaudhary.com";
