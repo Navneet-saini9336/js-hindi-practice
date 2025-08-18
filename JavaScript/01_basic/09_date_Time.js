@@ -57,3 +57,17 @@ console.log("toLocaleTimeString -", now.toLocaleTimeString());
 
 console.log("toLocaleString -", now.toLocaleString());
 // Example: 8/17/2025, 10:35:12 AM
+
+
+///////////////////////////
+
+let myCreateDate =new Date("01-14-2023");
+
+// console.log(myCreateDate.toLocalString());
+
+let myTimeStamp = Date.now()
+
+console.log(myTimeStamp);
+console.log(myCreateDate.getTime());
+console.log(Math.floor(Date.now()/1000));
+
