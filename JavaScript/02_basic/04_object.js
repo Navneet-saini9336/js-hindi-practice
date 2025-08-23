@@ -20,12 +20,12 @@ const regularUser = {
 }
 
 // Example user object
-const regularUser = {
+const regularUser1 = {
   fullname: "John Doe"
 };
 
 // Accessing a property
-console.log(regularUser.fullname); // John Doe
+console.log(regularUser1.fullname); // John Doe
 
 // Objects to merge
 const obj1 = { 1: "a", 2: "b" };
